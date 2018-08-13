@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\23458674b24dbf958e02ce4d0b8bb2b5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2d720cc0c2e22c53313fece799fefebc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c4d2a987b843b73deb1ffd39fae30af2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4daf441c713abce3a52f2dc822232f85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\0daf01727d308ffeb0938cbb174f24fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0139ce261fe415591054f11bd73fe036\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\df8d217d3a3248be58292a75d029ce92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\783c541dfd4d753ecefc055b51ccb6aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5f994bbd07fe23b56ac66ea5a78b3de5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\8649298a0f43758b95cbe93f4b2d8554\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e26426832309de3031b70e7bb67b71e8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4a56ace3d47b0835a1e89ddf91c60a78\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\89ae2d0b063f4119b320915063b8392e\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:3:5-56
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:5:22-69
+application
+ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2d720cc0c2e22c53313fece799fefebc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2d720cc0c2e22c53313fece799fefebc\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.sagarsharma4.retailfragmented.MainActivity
+ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\23458674b24dbf958e02ce4d0b8bb2b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\23458674b24dbf958e02ce4d0b8bb2b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2d720cc0c2e22c53313fece799fefebc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2d720cc0c2e22c53313fece799fefebc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c4d2a987b843b73deb1ffd39fae30af2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c4d2a987b843b73deb1ffd39fae30af2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4daf441c713abce3a52f2dc822232f85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4daf441c713abce3a52f2dc822232f85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\0daf01727d308ffeb0938cbb174f24fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\0daf01727d308ffeb0938cbb174f24fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0139ce261fe415591054f11bd73fe036\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0139ce261fe415591054f11bd73fe036\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\df8d217d3a3248be58292a75d029ce92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\df8d217d3a3248be58292a75d029ce92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\783c541dfd4d753ecefc055b51ccb6aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\783c541dfd4d753ecefc055b51ccb6aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5f994bbd07fe23b56ac66ea5a78b3de5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5f994bbd07fe23b56ac66ea5a78b3de5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\8649298a0f43758b95cbe93f4b2d8554\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\8649298a0f43758b95cbe93f4b2d8554\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e26426832309de3031b70e7bb67b71e8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e26426832309de3031b70e7bb67b71e8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4a56ace3d47b0835a1e89ddf91c60a78\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4a56ace3d47b0835a1e89ddf91c60a78\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\89ae2d0b063f4119b320915063b8392e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\sagar.sharma4\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\89ae2d0b063f4119b320915063b8392e\AndroidManifest.xml:20:5-44
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\RetailFragmented\app\src\main\AndroidManifest.xml

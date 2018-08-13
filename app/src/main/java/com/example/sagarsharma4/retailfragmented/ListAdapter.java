@@ -1,5 +1,6 @@
 package com.example.sagarsharma4.retailfragmented;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Parcelable;
@@ -37,27 +38,20 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, final int position) {
        // ((ViewHolder)holder).bindView(position);
         final Data getData = list.get(position);
 
         holder.nameView.setText(getData.name);
         holder.phoneNumberView.setText(getData.phoneNumber);
 
-//        holder.parentView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                TextView nameRef;
-//                String tag = (String)view.getTag();
-//
-//                Intent intent = new Intent(context, DescriptionPage.class);
-//                intent.putExtra("name", (Parcelable) getData);
-//
-//                context.startActivity(intent);
-//
-//            }
-//        });
+        holder.parentView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                ListFragment.sendPos(position);
+            }
+        });
     }
 
     @Override
@@ -79,4 +73,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         }
 
     }
+
+
+
 }

@@ -14,12 +14,12 @@
         android:layout_width="108dp"
         android:layout_height="106dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
 
     <TextView
         android:id="@+id/Name"
@@ -46,20 +46,23 @@
         android:text="0123456789"
         app:layout_constraintBottom_toTopOf="@+id/eMail"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toEndOf="@+id/contactImage"
-        app:layout_constraintTop_toBottomOf="@+id/Name" />
+        app:layout_constraintTop_toBottomOf="@+id/Name"
+        app:layout_constraintVertical_bias="0.072" />
 
     <TextView
         android:id="@+id/eMail"
         android:layout_width="225dp"
         android:layout_height="32dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="420dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:inputType="textEmailAddress"
         android:text="example@abc.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
         app:layout_constraintStart_toEndOf="@+id/contactImage" />
 
 </android.support.constraint.ConstraintLayout>

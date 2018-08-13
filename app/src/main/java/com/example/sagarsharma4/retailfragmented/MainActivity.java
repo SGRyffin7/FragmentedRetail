@@ -10,9 +10,10 @@ import android.os.Bundle;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ListFragment.onContactClick {
 
     static FragmentManager fragmentManager;
+    FragmentTransaction fragmentTransaction;
 
     ArrayList<Data> contacts = new ArrayList<>();
 
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
 
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction = fragmentManager.beginTransaction();
 
             ListFragment listFragment = new ListFragment();
 
@@ -64,5 +65,16 @@ public class MainActivity extends AppCompatActivity {
 
         }
         cursor.close();
+    }
+
+    @Override
+    public void onClickGetID(int pos) {
+        fragmentTransaction = fragmentManager.beginTransaction();
+
+        Data contact = contacts.get(pos);
+        DetailFragment detailFragment = new DetailFragment();
+        detailFragment.setContactDetails(contact.name, contact.phoneNumber);
+        fragmentTransaction.replace(R.id.container1, detailFragment, null);
+        fragmentTransaction.commit();
     }
 }

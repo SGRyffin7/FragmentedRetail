@@ -1,5 +1,6 @@
 package com.example.sagarsharma4.retailfragmented;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,6 +23,29 @@ public class ListFragment extends Fragment {
     private RecyclerView recyclerView;
 
     public static List<Data> data;
+
+    static onContactClick contactClick;
+
+    public static void sendPos(int position) {
+        contactClick.onClickGetID(position);
+    }
+
+    public interface onContactClick{
+        public void onClickGetID(int pos);
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+
+        Activity activity = (Activity) context;
+        try{
+
+            contactClick = (onContactClick) activity;
+        }
+        catch(ClassCastException e){
+        }
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
